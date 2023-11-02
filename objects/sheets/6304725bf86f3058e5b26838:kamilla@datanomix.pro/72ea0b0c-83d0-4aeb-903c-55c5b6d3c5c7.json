@@ -1,11 +1,10 @@
 {
   "qProperty": {
     "qInfo": {
-      "qId": "9f5c9e8f-69cd-4fd7-8207-b481a2ac53f5",
+      "qId": "72ea0b0c-83d0-4aeb-903c-55c5b6d3c5c7",
       "qType": "sheet"
     },
     "qMetaDef": {
-      "title": "Customer Profitability Clustering & City Sales Contribution",
       "description": "This sheet provides an insight into sales performance by providing a clustering of the Client data based on Profit and Discount measures to highlight the contribution of each City to the overall sales"
     },
     "rank": 1,
@@ -16,7 +15,7 @@
     "rows": 12,
     "cells": [
       {
-        "name": "f47e3646-3bb0-4167-a8f4-2d7ce0d88704",
+        "name": "af4ae924-5c0d-4a0c-8b07-86f236434cd7",
         "type": "scatterplot",
         "col": 0,
         "row": 0,
@@ -30,7 +29,7 @@
         }
       },
       {
-        "name": "2b68e667-e562-4f43-8b27-d0b1b7efc14c",
+        "name": "52950d78-1fc9-466b-9e3c-01244f9b0bb8",
         "type": "auto-chart",
         "col": 15,
         "row": 0,
@@ -44,7 +43,7 @@
         }
       },
       {
-        "name": "rMWsjg",
+        "name": "ab61e2c2-f606-4262-bae7-fe840be5e551",
         "type": "piechart",
         "col": 0,
         "row": 6,
@@ -74,7 +73,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "f47e3646-3bb0-4167-a8f4-2d7ce0d88704",
+          "qId": "af4ae924-5c0d-4a0c-8b07-86f236434cd7",
           "qType": "scatterplot"
         },
         "qMetaDef": {},
@@ -365,7 +364,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "2b68e667-e562-4f43-8b27-d0b1b7efc14c",
+          "qId": "52950d78-1fc9-466b-9e3c-01244f9b0bb8",
           "qType": "auto-chart"
         },
         "qMetaDef": {},
@@ -662,7 +661,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "rMWsjg",
+          "qId": "ab61e2c2-f606-4262-bae7-fe840be5e551",
           "qType": "piechart"
         },
         "qMetaDef": {},
