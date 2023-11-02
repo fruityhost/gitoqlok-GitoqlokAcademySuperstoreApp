@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "eefcfd91-d21f-411c-ad85-9d753e53b799",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Sum(Discount)",
+    "qDef": "SUM(Discount)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "_gitoqlok_tmp_hxthKK_1698914166341",
+    "description": "sum of all discounts",
+    "tags": []
+  }
+}
