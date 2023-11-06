@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "779a7ca3-03e8-437b-a0e9-0c740e626a03",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "=[Product Name]"
+    ],
+    "qFieldLabels": [
+      "Product Name"
+    ],
+    "title": "Product Name",
+    "coloring": {
+      "changeHash": "0.8747348640799866",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "_gitoqlok_tmp_wXPQuF_1699265281737",
+    "description": "",
+    "tags": []
+  }
+}
