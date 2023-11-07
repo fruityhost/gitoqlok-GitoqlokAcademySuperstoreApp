@@ -316,7 +316,9 @@
       "$hidden",
       "$relates_Город"
     ],
-    "qSrcTables": []
+    "qSrcTables": [
+      "Клиенты"
+    ]
   },
   {
     "qIsHidden": true,
@@ -328,7 +330,9 @@
       "$geopolygon",
       "$relates_КодСтраны"
     ],
-    "qSrcTables": []
+    "qSrcTables": [
+      "Клиенты"
+    ]
   },
   {
     "qIsHidden": true,
@@ -340,7 +344,9 @@
       "$geopolygon",
       "$relates_Страна"
     ],
-    "qSrcTables": []
+    "qSrcTables": [
+      "Клиенты"
+    ]
   },
   {
     "qName": "КодЗаказа",
