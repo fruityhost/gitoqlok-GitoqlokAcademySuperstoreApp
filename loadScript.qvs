@@ -219,7 +219,3 @@ FIELDS
   Week(Today())-Week($1) AS [WeekRelNo] ;
 
 DERIVE FIELDS FROM FIELDS [Order Date], [Ship Date], [ДатаЗаказа] USING [autoCalendar] ;
-///$tab _gitoqlok
-/**
-** Last Updated at 10/26/2023, 3:08:33 PM: Added Objects [%_OBJECTS_%%_SCRIPT_%] (fruityhost at 10/26/2023, 2:54:53 PM)
-*/
