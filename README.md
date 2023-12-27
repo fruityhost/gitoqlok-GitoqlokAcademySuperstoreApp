@@ -8,7 +8,8 @@ Created By fruityhost(No name specified in Profile) at Thu Nov 02 2023 14:39:26 
 
 Sheet Title | Description
 ------------ | -------------
-undefined|This sheet provides an insight into sales performance by providing a clustering of the Client data based on Profit and Discount measures to highlight the contribution of each City to the overall sales
+My new sheet|
+Customer Profitability Clustering & City Sales Contribution (1)|This sheet provides an insight into sales performance by providing a clustering of the Client data based on Profit and Discount measures to highlight the contribution of each City to the overall sales
 Customer Profitability Clustering & City Sales Contribution|This sheet provides an insight into sales performance by providing a clustering of the Client data based on Profit and Discount measures to highlight the contribution of each City to the overall sales
 
 
