@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "bd40eb80-bf27-4b39-ad01-6b4fedafe990",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "_soterreMetaData",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{\"deployedOn\": \"2024-02-01T05:53:43.677511520Z\" }",
+  "tags": []
+}

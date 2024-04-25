@@ -28,14 +28,14 @@ LOAD
 	ISO3Code AS [__ISO3Code],
 	ISO2Code AS [__ISO2Code],
 	Polygon AS [__Polygon]
-FROM [lib://DataFiles/countryGeo.qvd]
+FROM [lib://SharedSpace Example:DataFiles/countryGeo.qvd]
 (qvd);
 
 __countryAliasesBase:
 LOAD
 	Alias AS [__Country],
 	ISO3Code AS [__ISO3Code]
-FROM [lib://DataFiles/countryAliases.qvd]
+FROM [lib://SharedSpace Example:DataFiles/countryAliases.qvd]
 (qvd);
 
 __cityAliasesBase:
@@ -43,14 +43,14 @@ LOAD
 	Alias AS [__City],
 	geoKey AS [__geoKey],
 	CountryCode AS [__CityCountryCode]
-FROM [lib://DataFiles/cityAliases.qvd]
+FROM [lib://SharedSpace Example:DataFiles/cityAliases.qvd]
 (qvd);
 
 __cityGeoBase:
 LOAD
 	geoKey AS [__geoKey],
 	geoPoint AS [__GeoPoint]
-FROM [lib://DataFiles/cityGeo.qvd]
+FROM [lib://SharedSpace Example:DataFiles/cityGeo.qvd]
 (qvd);
 
 __countryCodeIsoThree2Polygon:
@@ -118,7 +118,7 @@ LOAD
  FROM [lib://DataFiles/Sample - Superstore Sales (Excel) (2).xls]
 (biff, embedded labels, table is Users$);
 
-[Клиенты_temp_a3949309-1b6e-d231-cda5-9f6b595f]:
+[Клиенты_temp_74760b8b-892d-5dfd-807e-00ff8bc4]:
 LOAD
 	[КодКлиента],
 	[Клиент],
@@ -139,7 +139,7 @@ TAG FIELD [Клиенты.КодСтраны_GeoInfo] WITH '$geopolygon', '$hidd
 TAG FIELD [Страна] WITH '$geoname', '$relates_Клиенты.Страна_GeoInfo';
 TAG FIELD [Клиенты.Страна_GeoInfo] WITH '$geopolygon', '$hidden', '$relates_Страна';
 TAG FIELD [Город] WITH '$geoname', '$relates_Клиенты.Город_GeoInfo';
-TAG FIELD [Клиенты.Город_GeoInfo] WITH '$geopoint', '$hidden', '$relates_Город';RENAME TABLE [Клиенты_temp_a3949309-1b6e-d231-cda5-9f6b595f] to [Клиенты];
+TAG FIELD [Клиенты.Город_GeoInfo] WITH '$geopoint', '$hidden', '$relates_Город';RENAME TABLE [Клиенты_temp_74760b8b-892d-5dfd-807e-00ff8bc4] to [Клиенты];
 
 DROP TABLES __countryGeoBase, __countryAliasesBase, __cityAliasesBase, __cityGeoBase;
 [autoCalendar]: 
